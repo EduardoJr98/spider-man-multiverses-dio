@@ -131,6 +131,10 @@ body::before {
   margin: 0 3.75rem;
 }
 
+.s-controller__button:nth-child(3) {
+  margin: 0 3.75rem;
+}
+
 .s-controller__button--active {
   background-color: white;
   color: var(--primary-color);
