@@ -58,11 +58,15 @@ body::before {
 }
 
 .s-card:nth-child(2) {
-  transform: rotateY(120deg) translateZ(50vw);
+  transform: rotateY(90deg) translateZ(50vw);
 }
 
 .s-card:nth-child(3) {
-  transform: rotateY(240deg) translateZ(50vw);
+  transform: rotateY(180deg) translateZ(50vw);
+}
+
+.s-card:nth-child(4) {
+  transform: rotateY(270deg) translateZ(50vw);
 }
 
 .s-card__background {
@@ -162,6 +166,10 @@ body#spider-man-02-hovered::before {
 }
 
 body#spider-man-03-hovered::before {
+  background-image: url('../images/pic-sm-bg-03.jpg');
+}
+
+body#spider-man-04-hovered::before {
   background-image: url('../images/pic-sm-bg-03.jpg');
 }
 
