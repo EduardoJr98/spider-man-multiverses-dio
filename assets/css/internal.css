@@ -5,6 +5,11 @@
 @import url('components/_link-button.css');
 @import url('components/_gallery.css');
 
+ body {
+   transform: scale(0.8);
+   transform-origin: top left;
+ }
+
 .s-wrapper {
   display: flex;
   height: 100vh;
